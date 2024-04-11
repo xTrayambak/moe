@@ -36,7 +36,7 @@
       });
 
     packages = eachSystem (system: {
-      default = self.packages.${system}.hyprland;
+      default = self.packages.${system}.moe;
       inherit
         (pkgsFor.${system})
         # moe-packages
